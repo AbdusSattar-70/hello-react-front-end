@@ -1,10 +1,18 @@
-import './App.css';
+import React from 'react';
+import {
+  BrowserRouter as Router, Routes, Route,
+} from 'react-router-dom';
+import Greeting from './components/Greeting';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hello world!</h1>
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<Greeting />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 

@@ -1,70 +1,227 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+ <h1>Nation Navigator </h1>
+</div>
 
-## Available Scripts
+<!-- TABLE OF CONTENTS -->
 
-In the project directory, you can run:
+# 📗 Table of Contents
 
-### `npm start`
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo and presentation video](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [📝 License](#license)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<!-- PROJECT DESCRIPTION -->
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📖 Nation Navigator (React Capstone) <a name="about-project"></a>
 
-### `npm test`
+<h3>Nation Navigator is a website where you can learn about different countries from around the world. It has information on things like what region the country is in, how many people live there, what the capital city is, what language is spoken, and even what the flag looks like. You can easily search for a country you're interested in and find all the information in a simple and easy-to-read format. The website uses a tool called the Rest Countries API to get the latest and most accurate data. So, if you want to learn about a new country, Nation Navigator is a great place to start! </h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run build`
+## Tech Stack <a name="tech-stack"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<details>
+  <summary>Client</summary>
+  <b>This project only works client side right now.</b>
+  <ul>
+    <li>React</li>
+    <li>Redux</li>
+    <li>CSS</li>
+  </ul>
+</details>
+<details>
+  <summary>Server</summary>
+  <ul>
+    <li><a href=#>Local Server - Hosted on [Netlify](https://www.netlify.com/)
+</a></li>
+  </ul>
+</details>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<details>
+<summary>Database</summary>
+  <ul>
+    <li><a href=#>[Rest Countries](https://restcountries.com/) API's used</a></li>
+  </ul>
+</details>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<!-- Features -->
 
-### `npm run eject`
+# 💻 Key Features <a name="key-features"></a>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Home Page:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Displays a list of countries retrieved from the [Rest Countries](https://restcountries.com/) API.
+- Users can filter the countries by region.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Details Page:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- Shows the details of a country, such as its flag, region, population, and capital city.
+- Users can access this page by clicking on a country in the `Home Page`.
 
-## Learn More
+## Header and Navigation:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Contains a header and a navigation bar for both the Home Page and Details Page.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Code Splitting
+<!-- LIVE DEMO -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Live Demo <a name="live-demo"></a>
 
-### Analyzing the Bundle Size
+- [Live Demo Link](https://creative-creponne-9b4329.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+# 💻 Video Presentation <a name="video-presentation"></a>
 
-### Making a Progressive Web App
+- [Video Presentation ](https://www.loom.com/share/ff221b10b50a4fc99ac295854c0f6594)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### Advanced Configuration
+<!-- GETTING STARTED -->
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## 💻 Getting Started <a name="getting-started"></a>
 
-### Deployment
+To get a local copy up and running, follow these steps.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Prerequisites <a name="prerequisites"></a>
 
-### `npm run build` fails to minify
+- In order to run this project you need:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### It would be best if you had some familiarity with `React`, `Redux`, and `JS`.
+
+- A Computer (MAC or PC)
+- code editor (VSCode,Atom etc...)
+- A browser (Chrome,Mozilla,Safari etc...)
+- Version Control System (Git and Github)
+
+# Setup <a name="setup"></a>
+
+Clone this repository to your desired folder:
+
+```bash
+       git clone https://github.com/AbdusSattar-70/Nation-Navigator.git
+       cd Nation-Navigator
+```
+
+# Install <a name="install"></a>
+
+Install this project with:
+
+```bash
+     npm install
+```
+
+# Run tests and check errors <a name="run-tests"></a>
+
+To run tests and check errors, run the following command:
+
+- To Test:-
+
+```bash
+   npm test
+```
+
+- To check Styelint error:-
+
+```bash
+   npx stylelint "\*_/_.{css,scss}"
+```
+
+- To check Eslint error:-
+
+```bash
+   npx eslint "**/*.{js,jsx}"
+```
+
+- To check webhint error:-
+
+```bash
+  npx hint .
+```
+
+# Deployment <a name="triangular_flag_on_post-deployment"></a>
+
+You can deploy this project using:
+
+```bash
+   npm run build
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
+
+## 👤 Abdus Sattar
+
+- GitHub: [AbdusSattar-70](https://github.com/AbdusSattar-70)
+- Twitter: [Abdus Sattar](https://twitter.com/Abdus_Sattar70)
+- LinkedIn: [Abdus Sattar](https://www.linkedin.com/in/abdus-sattar-a41a26215/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- FUTURE FEATURES -->
+
+## 🔭 Future Features <a name="future-features"></a>
+
+- [ ] **Web Responsiveness for all users**
+- [ ] **Add web accessibility**
+- [ ] **Add Login page**
+- [ ] **Add gradient background that will change randomly**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Everybody is welcome to suggest, changes,Contributions, issues, and feature request in this project.
+
+In order to do it, fork this repository, create a new branch and open a Pull Request from your branch.
+
+Feel free to check the [issues page](../../issues/).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- SUPPORT -->
+
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, Please give me ⭐️ and you can use it following [MIT](./LICENSE) license.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGEMENTS -->
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).Thanks ❤️ to <b>Nelson Sakwa</b> on Behance for creating such a beautiful design.
+
+I would like to thank and appreciate who contributes this project.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## 📝 License <a name="license"></a>
+
+This project is under [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
