@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
- <h1>Nation Navigator </h1>
+ <h1>Hello React Front-End</h1>
 </div>
 
 <!-- TABLE OF CONTENTS -->
@@ -29,9 +29,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-## 📖 Nation Navigator (React Capstone) <a name="about-project"></a>
+## 📖 Hello React Front-End<a name="about-project"></a>
 
-<h3>Nation Navigator is a website where you can learn about different countries from around the world. It has information on things like what region the country is in, how many people live there, what the capital city is, what language is spoken, and even what the flag looks like. You can easily search for a country you're interested in and find all the information in a simple and easy-to-read format. The website uses a tool called the Rest Countries API to get the latest and most accurate data. So, if you want to learn about a new country, Nation Navigator is a great place to start! </h3>
+<h3>
+The "hello-react-front-end" app enriches user experience by utilizing data from the Hello Rails back-end to display randomly generated greetings on its user interface (UI). When users interact with the front-end, the app communicates with the back-end to request a random greeting from the stored collection. The back-end processes the request, generates a random greeting, and sends it back to the front-end. Subsequently, the front-end dynamically updates the UI to showcase the newly fetched greeting, providing users with a fresh and engaging experience every time. This seamless integration of front-end and back-end components demonstrates the synergy between the two, exemplifying the power of full-stack development. By incorporating data flow from the back-end, the "hello-react-front-end" app offers a personalized and interactive encounter, making user interactions more enjoyable and memorable.</h3>
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,7 +50,7 @@
 <details>
   <summary>Server</summary>
   <ul>
-    <li><a href=#>Local Server - Hosted on [Netlify](https://www.netlify.com/)
+    <li><a href=#>Local Server
 </a></li>
   </ul>
 </details>
@@ -57,7 +58,7 @@
 <details>
 <summary>Database</summary>
   <ul>
-    <li><a href=#>[Rest Countries](https://restcountries.com/) API's used</a></li>
+    <li><a href=#>[Hello Rails Back-End](http://localhost:3000/api/greetings/) API's used</a></li>
   </ul>
 </details>
 
@@ -67,29 +68,7 @@
 
 ## Home Page:
 
-- Displays a list of countries retrieved from the [Rest Countries](https://restcountries.com/) API.
-- Users can filter the countries by region.
-
-## Details Page:
-
-- Shows the details of a country, such as its flag, region, population, and capital city.
-- Users can access this page by clicking on a country in the `Home Page`.
-
-## Header and Navigation:
-
-- Contains a header and a navigation bar for both the Home Page and Details Page.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- LIVE DEMO -->
-
-## 🚀 Live Demo <a name="live-demo"></a>
-
-- [Live Demo Link](https://creative-creponne-9b4329.netlify.app/)
-
-# 💻 Video Presentation <a name="video-presentation"></a>
-
-- [Video Presentation ](https://www.loom.com/share/ff221b10b50a4fc99ac295854c0f6594)
+- Displays random greeting retrieved from the [Hello Rails Back-End](http://localhost:3000/api/greetings/) API.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -115,8 +94,8 @@ To get a local copy up and running, follow these steps.
 Clone this repository to your desired folder:
 
 ```bash
-       git clone https://github.com/AbdusSattar-70/Nation-Navigator.git
-       cd Nation-Navigator
+       git clone https://github.com/AbdusSattar-70/hello-react-front-end.git
+       cd hello-react-front-end
 ```
 
 # Install <a name="install"></a>
@@ -181,10 +160,7 @@ You can deploy this project using:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Web Responsiveness for all users**
-- [ ] **Add web accessibility**
-- [ ] **Add Login page**
-- [ ] **Add gradient background that will change randomly**
+- [ ] **Show more api data**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -211,8 +187,6 @@ If you like this project, Please give me ⭐️ and you can use it following [MI
 <!-- ACKNOWLEDGEMENTS -->
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-Original design idea by [Nelson Sakwa](https://www.behance.net/sakwadesignstudio).Thanks ❤️ to <b>Nelson Sakwa</b> on Behance for creating such a beautiful design.
 
 I would like to thank and appreciate who contributes this project.
 
